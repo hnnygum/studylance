@@ -1,0 +1,10 @@
+email_config.php
+fix_admin_password.php
+.env
+.env.*
+email_config (2).php
+email_config_phpmailer.php
+config.php
+settings.php
+database_setup.sql
+files_to_upload.txt

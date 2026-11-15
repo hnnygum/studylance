@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyLance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">StudyLance</div>
+    <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <a href="register_new.php" class="btn primary">Signup</a>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <video autoplay muted loop playsinline class="bg-video">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="content">
+        <div class="tag">Freelancers</div>
+        <h1>StudyLance, built for<br>the next generation.</h1>
+        <p class="subtitle">Empowering students to turn their skills into income.</p>
+        <div class="buttons">
+            <a href="login_new.php" class="btn primary">Start Now</a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section reveal">
+    <h2>About Us</h2>
+    <p>StudyLance helps students connect with clients and earn money through freelancing.</p>
+</section>
+
+<!-- WORK -->
+<section id="work" class="section cards">
+    <h2>How It Works</h2>
+    <div class="grid">
+        <div class="glass reveal">
+            <h3>Create Profile</h3>
+            <p>Show your skills and portfolio.</p>
+        </div>
+        <div class="glass reveal">
+            <h3>Find Work</h3>
+            <p>Browse freelance projects.</p>
+        </div>
+        <div class="glass reveal">
+            <h3>Earn Money</h3>
+            <p>Get paid for your work.</p>
+        </div>
+    </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="section reviews">
+    <h2>What Our Users Say</h2>
+    <div class="review-container">
+        <div class="review-card reveal">
+            <p>"StudyLance helped me earn my first income!"</p>
+            <div class="user">
+                <img src="a.jpeg" onerror="this.src='https://ui-avatars.com/api/?name=Himanshu&background=6a5cff&color=fff'">
+                <div class="user-info"><h4>Himanshu Kandari</h4><span>Frontend Developer</span></div>
+            </div>
+        </div>
+        <div class="review-card reveal">
+            <p>"Amazing platform for students."</p>
+            <div class="user">
+                <img src="b.png.jpg" onerror="this.src='https://ui-avatars.com/api/?name=Avani&background=6a5cff&color=fff'">
+                <div class="user-info"><h4>Avani Joshi</h4><span>Graphic Designer</span></div>
+            </div>
+        </div>
+        <div class="review-card reveal">
+            <p>"Easy to use and great opportunities."</p>
+            <div class="user">
+                <img src="c.png.jpg" onerror="this.src='https://ui-avatars.com/api/?name=Khushee&background=6a5cff&color=fff'">
+                <div class="user-info"><h4>Khushee Bhatt</h4><span>Web Developer</span></div>
+            </div>
+        </div>
+        <div class="review-card reveal">
+            <p>"Thankyou - StudyLance for this platform."</p>
+            <div class="user">
+                <img src="d.png.jpg" onerror="this.src='https://ui-avatars.com/api/?name=Harsh&background=6a5cff&color=fff'">
+                <div class="user-info"><h4>Harsh Negi</h4><span>Video Editor</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form class="contact-form" id="contactForm">
+        <input type="text"  id="contactName"    placeholder="Your Name"    required>
+        <input type="email" id="contactEmail"   placeholder="Your Email"   required>
+        <textarea           id="contactMessage" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
